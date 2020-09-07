@@ -7,6 +7,9 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
+/**
+ * Created by jt on 2019-04-20.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -17,5 +20,4 @@ public class BeerDto {
     private String beerName;
     private String beerStyle;
     private Long upc;
-
 }
